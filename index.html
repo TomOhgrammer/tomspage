@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="de">
+<meta charset="UTF-16">
+<link href="css/design.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<title>Interactive Novel</title>
+<script src="js/jquery.js"></script>
+<script>
+$(document).ready(function(){
+    /* Hier der jQuery-Code */
+	$("#text2").hide();
+	$("#text3").hide();
+	$("#text4").hide();
+	$("#text5").hide();
+	$("#image2").hide();
+	$("#image3").hide();
+	$("#image4").hide();
+	$("#image5").hide();
+	$("#btn4").hide();
+	$("#btn5").hide();
+	$("#btn6").hide();
+	
+    $("#btn1").click(function(){
+     $("#text1").hide();
+	$("#text4").show();
+	$("#image1").hide();
+	$("#image5").show();
+	$("#btn3").hide();
+	$("#image2").hide();
+	$("#text3").hide();
+	$("#text2").hide();
+	$("#btn4").show();
+	$("#btn5").show();
+	$("#btn6").show();
+	$("#btn1").hide();
+	$("#btn2").hide();
+	$("#image3").hide();
+  });
+  $("#btn2").click(function(){
+    $("#text1").hide();
+	$("#text2").hide();
+	$("#text3").show();
+	$("#image1").hide();
+	$("#image3").hide();
+	$("#image2").show();
+	$("#btn2").hide();
+	
+  });
+  $("#btn3").click(function(){
+    $("#text1").hide();
+	$("#text2").show();
+	$("#image1").hide();
+	$("#image3").show();
+	$("#btn3").hide();
+	$("#image2").hide();
+	$("#text3").hide();
+  });
+  $("#btn4").click(function(){
+    $("p").hide();
+  });
+  $("#btn5").click(function(){
+    $("p").hide();
+  });
+  $("#btn6").click(function(){
+    $("p").hide();
+  });
+  $("#show").click(function(){
+    $("p").show();
+  });
+});
+</script>
+</head>
+<body>
+<!-- Note 
+<div style="background:yellow;padding:5px">
+  <h4 style="text-align:center">Resize the browser window to see the responsive effect.</h4>
+</div> -->
+
+<!-- Header -->
+<div class="header">
+  <h1>Name of the individual graphic novel</h1>
+  
+</div>
+
+<!-- Navigation Bar -->
+<div class="navbar">
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+</div>
+
+<!-- The flexible grid (content) -->
+<div class="row">
+  
+  <div class="main">
+    <div id="text1"><p>Your name is SAM and it's your 20th birthday today!! Yay!!
+You just came back home after celebrating the day of your birth together with your siblings .
+It was fun but you're a little tired (because you refused to go to bed even tho Warren told you to, you stubborn loser) so you decide to go to bed and watch some cooking ASMR videos (the ones by the egg guy. God, you LOVE this man and his silly egg jokes) but what's that?
+It appears someone snuck into your room while you were gone and left something for you on your little table!
+</p>
+</div>
+<div id="text2"><p>Ah, your semi-comfortable twin size bed.
+You lovingly look down at your Griffin bedding that looks back at you with twinkly eyes and a sweet smile.
+You bend down to press a gentle kiss to one of Griffin's rosy cheeks.
+</p></div>
+<div id="text3"><p>Hazel says "Mrwwwphhmmw :3" which roughly translates to "Happy birthday! I'm going to kill you in your sleep someday you pathetic twink"
+</br></br>
+What will you do?
+</p></div>
+<div id="text4"><p>On your table is a CHOCOLATE CAKE, an ENVELOPE and a FRAMED PHOTO.
+</br></br>
+What will you inspect first?
+</p></div>
+<div id="text5"><p>Inside the ENVELOPE is a LETTER and a NOTE.
+Inside the ENVELOPE is a LETTER and a NOTE.
+</br>
+</br>
+Which will you read first?
+</p></div>
+<div class="fakeimg" id="image1"><img src="images/sammy_sprite.png"></div>
+<div class="fakeimg" id="image2"><img src="images/hazel_close_up.png"></div>
+<div class="fakeimg" id="image3"><img src="images/bed_close_up.png"></div>
+<div class="fakeimg" id="image4"><img src="images/sam_room_finished.png"></div>
+<div class="fakeimg" id="image5"><img src="images/table_close_up.png"></div>
+
+<div id="menu">
+<button id="btn1">Check table</Button>
+<button id="btn2">Check Hazel</Button>
+<button id="btn3">Check bed</Button>
+<button id="btn4">Check Cake</Button>
+<button id="btn5">Check envelope</Button>
+<button id="btn6">Check photo</Button>
+</div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+
+</body>
+</html>
