@@ -32,7 +32,7 @@
 </nav>
 
 <!-- The flexible grid (content) -->
-
+<div id="wrap">
   
   <main class="main">
     <article>
@@ -73,16 +73,26 @@
      et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,</p>
 </section>
 <section id="contact"> 
-  <h1>This the <b>Contact</b> section</h1>
-  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
-    At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
-    At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
-    At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-
-   <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan 
-     et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,</p>
+  <h1>Contact</h1>
+  <form action="#" onsubmit="alert('This is just a test form no data will be sent')">
+    <label for="fname">Firstname:</label>
+    <input type="text" id="fname" name="fname"> 
+  <br>
+    <label for="lname">Lastname:</label>
+    <input type="text" id="lname" name="lname">
+    <br>
+    <label for="subject">Subject:</label>
+    <select name="topics" size="0">
+      <option value="zero" selected>---</option>
+      <option value="congrats">Congratualtions</option>
+      <option value="support">Support</option>
+      <option value="topic3">Topic 3</option>
+    </select>
+    <br>
+    <textarea name="message" id="cotextarea"></textarea>
+    <br>
+    <input type="submit" value="Senden">
+  </form>
 </section>
 </article>
 
@@ -90,7 +100,7 @@
 
 
 </main>
-
+</div>
 <!-- Footer -->
 <footer class="footer">
   <a href="#">Imprint</a>

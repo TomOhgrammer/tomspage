@@ -120,10 +120,15 @@ footer {
 #contact{
   background-color: lightsteelblue;
   border: solid 1px black;
+  text-align: center;
 }
 section{
   margin-bottom: 200px;
 }
 #profpic{
   border-radius: 250px;
+}
+#wrap{
+  width: 100%;
+  margin: 0 auto;
 }
