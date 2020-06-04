@@ -124,15 +124,28 @@ footer {
 #contact{
   background-color: lightsteelblue;
   border: solid 1px black;
+  
+}
+.sectionheadline h1{
+  text-align: center;
 }
 section{
-  padding-top: 50px;
+  padding-top: 30px;
   margin-bottom: 200px;
 }
 #profpic{
-  border-radius: 250px;
+  border-radius: 100%;
 }
 #mapid { 
-  margin: auto;
+  border: solid 1px rgb(235, 7, 7);
   height: 300px;
-width:400px; }
+width:50%px; }
+#contfo{
+  float: left;
+  border: solid 1px rgb(98, 235, 7);
+}
+label{
+  display: block;
+  float: left;
+  width : 120px;    
+}

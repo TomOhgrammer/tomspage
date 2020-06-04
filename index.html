@@ -25,7 +25,7 @@
 
 <!-- Header -->
 <header class="header">
-  <img src="./images/profil-bild.jpg" alt="Profil Bild von Thomas Ohler" height="15%" width="15%" class="bounceInLeft animated" id="profpic">
+  <img src="./images/profil-bild.jpg" alt="Profil Bild von Thomas Ohler" height="100px" width="100px" class="bounceInLeft animated" id="profpic">
 
   <h1 class="tada animated">Thomas Ohler</h1>
   
@@ -53,7 +53,7 @@
           <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan 
             et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,</p>
           </section>
-<section id="voyage"> 
+<section id="voyage" class="sectionheadline"> 
   <h1>This the <b>Voyage</b> section</h1>
   <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
     At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
@@ -65,24 +65,26 @@
    <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan 
      et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,</p>
 </section>
-<section id="projects"> 
+<section id="projects" class="sectionheadline"> 
   <h1>Here you will find some of my <b>Projects</b> I did in the last years</h1>
   <p>Yu will find a kind of time line in this section which will show the main info about the projekts and in some cases a link to it.</p>
 </section>
-<section id="contact"> 
+<section id="contact" class="sectionheadline"> 
   <h1><b>Contact</b></h1>
-  <form id="cform">
+  <div id="contfo"><form id="cform">
     <label for="fname">First name:</label>
     <input type="text" id="fname" name="fname"><br>
     <label for="lname">Last name:</label>
     <input type="text" id="lname" name="lname"> <br>
     <label for="email">E-Mail:</label>
-    <input type="email" id="email" name="email"> <br>
+    <input type="email" id="email" name="email" alignment="right"> <br>
     <label for="subj">Subject:</label>
     <input type="text" id="subj" name="subj"> <br>
-    <label for="message">E-Mail Message:</label> <br>
+    <label for="message">E-Mail Message:</label>
     <textarea name="message" style="width:200px; height:150px;"></textarea><br>
   </form>
+</div>
+
 
     <div id="mapid"></div>
     <script>
