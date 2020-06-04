@@ -3,6 +3,16 @@
 <meta charset="UTF-16">
 <link href="css/design.css" rel="stylesheet">
 <link href="css/animate.css" rel="stylesheet">
+<!-- <link href="css/new.css" rel="stylesheet"> -->
+<!--Open Streetmap implementation-->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+   integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+   crossorigin="">
+  </script>
+<!--Open Streetmap implementation END-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
 <title>toliquid.de</title>
@@ -23,7 +33,7 @@
 
 <!-- Navigation Bar -->
 <nav class="navbar">
-  <a href="#about">About me</a>
+  <a href="#about">Who am I?</a>
   <a href="#voyage">Voyage</a>
   <a href="#projects">Projects</a>
   <a href="#contact">Contact</a>
@@ -32,22 +42,17 @@
 </nav>
 
 <!-- The flexible grid (content) -->
-<div id="wrap">
+
   
   <main class="main">
     <article>
       <section id="about"> 
-        <h1>This the <b>About me</b> section</h1>
-         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
-           At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
-           At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
-           At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        <h1>Who am I?</h1>
+         <p>Hi my name is Thomas Ohler and I am born in the early 80's. I was growing up in one of the lovliest parts of Germany. There were  lots of wineyards and fields arround the village.</p>
 
           <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan 
             et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,</p>
-</section>
+          </section>
 <section id="voyage"> 
   <h1>This the <b>Voyage</b> section</h1>
   <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -61,50 +66,23 @@
      et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,</p>
 </section>
 <section id="projects"> 
-  <h1>This the <b>Projects</b> section</h1>
-  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
-    At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
-    At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
-    At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-
-   <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan 
-     et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,</p>
+  <h1>Here you will find some of my <b>Projects</b> I did in the last years</h1>
+  <p>Yu will find a kind of time line in this section which will show the main info about the projekts and in some cases a link to it.</p>
 </section>
 <section id="contact"> 
-<<<<<<< HEAD
-<<<<<<< HEAD
-  <h1>Contact</h1>
-  <form action="#" onsubmit="alert('This is just a test form no data will be sent')">
-    <label for="fname">Firstname:</label>
-    <input type="text" id="fname" name="fname"> 
-  <br>
-    <label for="lname">Lastname:</label>
-    <input type="text" id="lname" name="lname">
-    <br>
-    <label for="subject">Subject:</label>
-    <select name="topics" size="0">
-      <option value="zero" selected>---</option>
-      <option value="congrats">Congratualtions</option>
-      <option value="support">Support</option>
-      <option value="topic3">Topic 3</option>
-    </select>
-    <br>
-    <textarea name="message" id="cotextarea"></textarea>
-    <br>
-    <input type="submit" value="Senden">
+  <h1><b>Contact</b></h1>
+  <form id="cform">
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"> <br>
+    <label for="email">E-Mail:</label>
+    <input type="email" id="email" name="email"> <br>
+    <label for="subj">Subject:</label>
+    <input type="text" id="subj" name="subj"> <br>
+    <label for="message">E-Mail Message:</label> <br>
+    <textarea name="message" style="width:200px; height:150px;"></textarea><br>
   </form>
-=======
-=======
->>>>>>> parent of d678b1d... update index
-  <h1>This the <b>Contact</b> section</h1>
-  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
-    At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
-    At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
-    At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 
     <div id="mapid"></div>
     <script>
@@ -122,7 +100,6 @@
       }).addTo(mymap);
     
     </script>
->>>>>>> parent of d678b1d... update index
 </section>
 </article>
 
@@ -130,7 +107,7 @@
 
 
 </main>
-</div>
+
 <!-- Footer -->
 <footer class="footer">
   <a href="#">Imprint</a>
